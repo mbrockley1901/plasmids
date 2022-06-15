@@ -1,11 +1,11 @@
-LOCUS       pEXG2                5084 bp    DNA     circular SYN 08-FEB-2015
+LOCUS       pEXG2                   5084 bp    DNA        circular     14-JUN-2022
 DEFINITION  Cloning vector pEXG2, complete sequence.
 ACCESSION   KM887143
 VERSION     KM887143.1
 KEYWORDS    .
 SOURCE      Cloning vector pEXG2
-  ORGANISM  Cloning vector pEXG2
-            other sequences; artificial sequences; vectors.
+  ORGANISM  Cloning vector pEXG2 other sequences; artificial sequences;
+            vectors.
 REFERENCE   1  (bases 1 to 5084)
   AUTHORS   Hmelo,L.R., Borlee,B.R., Almblad,H., Randall,T.E., Love,M.E.,
             Young,J.J., Irie,Y., Tseng,B.S., Storek,K.M., Siehnel,R.J.,
@@ -19,47 +19,55 @@ REFERENCE   2  (bases 1 to 5084)
   TITLE     Direct Submission
   JOURNAL   Submitted (09-OCT-2014) Microbiology, University of Washington,
             1705 NE Pacific St., Box 357735, Seattle, WA 98195, USA
-COMMENT     ##Assembly-Data-START##
-            Sequencing Technology :: Sanger dideoxy sequencing
-            ##Assembly-Data-END##
+COMMENT     ##Assembly-Data-START## Sequencing Technology :: Sanger dideoxy
+            sequencing ##Assembly-Data-END##
+COMMENT     
+COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
-     source          1..5084
-                     /organism="Cloning vector pEXG2"
-                     /mol_type="other DNA"
-                     /db_xref="taxon:1605386"
      rep_origin      1040..1713
                      /note="colE1 origin of replication"
+                     /locus_tag="colE1 origin of replication"
+                     /label="colE1 origin of replication"
+                     /ApEinfo_label="colE1 origin of replication"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      oriT            complement(2077..2187)
-     gene            complement(2315..2848)
-                     /gene="aaC1"
+                     /locus_tag="oriT"
+                     /label="oriT"
+                     /ApEinfo_label="oriT"
+                     /ApEinfo_fwdcolor="#00D95A"
+                     /ApEinfo_revcolor="#00D95A"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(2315..2848)
                      /gene="aaC1"
-                     /codon_start=1
-                     /transl_table=11
+                     /codon_start="1"
+                     /transl_table="11"
                      /product="gentamicin-3-acetyltransferase"
                      /protein_id="AJG36473.1"
                      /translation="MLRSSNDVTQQGSRPKTKLGGSSMGIIRTCRLGPDQVKSMRAAL
                      DLFGREFGDVATYSQHQPDSDYLGNLLRSKTFIALAAFDQEAVVGALAAYVLPKFEQP
                      RSEIYIYDLAVSGEHRRQGIATALINLLKHEANALGAYVIYVQADYGDDPAVALYTKL
                      GIREEVMHFDIDPSTAT"
+                     /locus_tag="gentR"
+                     /label="gentR"
+                     /ApEinfo_label="gentR"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      gene            complement(3122..4543)
                      /gene="sacB"
-     CDS             complement(3122..4543)
-                     /gene="sacB"
-                     /codon_start=1
-                     /transl_table=11
-                     /product="levansucrase"
-                     /protein_id="AJG36472.1"
-                     /translation="MNIKKFAKQATVLTFTTALLAGGATQAFAKETNQKPYKETYGIS
-                     HITRHDMLQIPEQQKNEKYQVPEFDSSTIKNISSAKGLDVWDSWPLQNADGTVANYHG
-                     YHIVFALAGDPKNADDTSIYMFYQKVGETSIDSWKNAGRVFKDSDKFDANDSILKDQT
-                     QEWSGSATFTSDGKIRLFYTDFSGKHYGKQTLTTAQVNVSASDSSLNINGVEDYKSIF
-                     DGDGKTYQNVQQFIDEGNYSSGDNHTLRDPHYVEDKGHKYLVFEANTGTEDGYQGEES
-                     LFNKAYYGKSTSFFRQESQKPLQSDKKRTAELANGALGMIELNDDYTLKKVMKPLIAS
-                     NTVTDEIERANVFKMNGKWYLFTDSRGSKMTIDGITSNDIYMLGYVSNSLTGPYKPLN
-                     KTGLVLKMDLDPNDVTFTYSHFAVPQAKGNNVVITSYMTNRGFYADKQSTFAPSFLLN
-                     IKGKKTSVVKDSILEQGQLTVNK"
-ORIGIN      
+                     /locus_tag="sacB"
+                     /label="sacB"
+                     /ApEinfo_label="sacB"
+                     /ApEinfo_fwdcolor="#ff797d"
+                     /ApEinfo_revcolor="#ff102f"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+ORIGIN
         1 ttaattaatt tccacgggtg cgcatgatcg tgctcctgtc gttgaggacc cggctaggct
        61 ggcggggttg ccttactggt tagcagaatg aatcaccgat acgcgagcga acgtgaagcg
       121 actgctgctg caaaacgtct gcgacctgag caacaacatg aatggtcttc ggtttccgtg
@@ -144,5 +152,5 @@ ORIGIN
      4861 gtttcttttc attctctgta ttttttatag tttctgttgc atgggcataa agttgccttt
      4921 ttaatcacaa ttcagaaaat atcataatat ctcatttcac taaataatag tgaacggcag
      4981 gtaagctaat tccacacatt atacgagccg gaagcataaa tgtaaagcaa gcttctgcag
-     5041 gtcgactcta gaggatcccc gggctcgagc tcgaattcgg tacc
+     5041 gtcgactcta gaggatcccc gggctcgagc tcgaattcgg tacc 
 //
